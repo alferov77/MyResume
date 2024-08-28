@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Подключение Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <title>Личная страница разработчика</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Мобильное меню -->
+    <header class="mobile-header">
+        <div class="hamburger-menu">
+            <i class="fas fa-bars"></i>
+        </div>
+        <nav class="mobile-nav">
+            <ul class="mobile-nav-links">
+                <li><a href="#about">ОБО МНЕ</a></li>
+                <li><a href="#skills">НАВЫКИ</a></li>
+                <li><a href="#education">ОБРАЗОВАНИЕ</a></li>
+                <li><a href="#projects">ПРОЕКТЫ</a></li>
+                <li><a href="#contact">СВЯЗАТЬСЯ СО МНОЙ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Основное меню -->
+    <header class="sidebar">
+        <nav class="navbar">
+            <div class="photo-container">
+                <img src="assets/logo.jpg" alt="Мое фото" class="profile-photo">
+            </div>
+            <ul class="nav-links">
+                <li><a href="#about" aria-label="О себе">ОБО МНЕ</a></li>
+                <li><a href="#skills" aria-label="Навыки">НАВЫКИ</a></li>
+                <li><a href="#education" aria-label="Образование">ОБРАЗОВАНИЕ</a></li>
+                <li><a href="#projects" aria-label="Проекты">ПРОЕКТЫ</a></li>
+                <li><a href="#contact" aria-label="Связь со мной">СВЯЗАТЬСЯ СО МНОЙ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Основной контент -->
+    <main class="content">
+        <!-- Разделитель "Обо мне" -->
+        <div class="section-divider">
+            <span>ОБО МНЕ</span>
+        </div>
+        <section id="about" class="about">
+            <div class="about-text">
+                <p>Меня зовут <span class="highlight">АНДРЕЙ АЛФЕРОВ</span>, и я только начинаю свой путь в мире <span><i>web-разработки</i></span>. С ранних лет меня привлекала техника, и я всегда стремился понять, как работают сайты и приложения, 
+                    которыми мы пользуемся каждый день. Хотя у меня пока нет опыта работы в профессиональных проектах, я полон энтузиазма и желания учиться.</p> 
+                <p>Я активно изучаю <span><b>Python, HTML, CSS, JavaScript</b></span> и основы работы с <span><b>фреймворками</b></span>. Также я знакомлюсь с базами данных, такими как <span><b>PostgreSQL и MySQL</b></span>. 
+                    Моей целью является создание современных, удобных и безопасных веб-приложений, которые будут приносить пользу и радость пользователям.</p>
+                <p>Я готов участвовать в бесплатных или малооплачиваемых стажировках и проектах, чтобы нарастить свой опыт и научиться работать в команде. 
+                    Мне нравится разбираться в сложных задачах и находить решения, а также делиться своими знаниями и учиться у других.</p> 
+                <p>Кроме программирования, я увлекаюсь хайкингом и трекингом, люблю ходить в горы и путешествовать. Я верю, что это помогает мне поддерживать баланс между физической активностью 
+                    и интеллектуальными нагрузками, что в свою очередь улучшает мою продуктивность и креативность. 
+                    Зимой я предпочитаю активный отдых и занимаюсь сноубордингом, что позволяет мне ощутить свободу движения и зарядиться энергией.</p>
+                <p><span><i>Я считаю, что успешный разработчик — это не только хороший кодер, но и человек, умеющий находить общий язык с командой, понимать потребности пользователей и постоянно совершенствоваться.</i></span> 
+                    Поэтому я стремлюсь развивать не только свои технические навыки, но и навыки общения, тайм-менеджмента и критического мышления.</p>
+            </div>
+        </section>
+
+        <!-- Разделитель "Навыки" -->
+        <div class="section-divider">
+            <span>НАВЫКИ</span>
+        </div>
+        <section id="skills" class="skills">
+            <div class="skill-bar">
+                <div class="skill-bar-item">
+                    <span>HTML</span>
+                    <div class="bar">
+                        <div class="bar-fill html">90%</div>
+                    </div>
+                </div>
+                <div class="skill-bar-item">
+                    <span>CSS</span>
+                    <div class="bar">
+                        <div class="bar-fill css">70%</div>
+                    </div>
+                </div>
+                <div class="skill-bar-item">
+                    <span>JavaScript</span>
+                    <div class="bar">
+                        <div class="bar-fill js">65%</div>
+                    </div>
+                </div>
+                <div class="skill-bar-item">
+                    <span>Python</span>
+                    <div class="bar">
+                        <div class="bar-fill python">95%</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Разделитель "Образование" -->
+        <div class="section-divider">
+            <span>ОБРАЗОВАНИЕ</span>
+        </div>
+        <section id="education" class="education">
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>2023 - 2025</h3>
+                        <p>Завершение в 2025 г. дополнительного образования (профессиональной переподготовки). Курс "Fullstack-разработчик на Python".</p> 
+                        <p><span><b>Образовательная платформа Skillfactory</b></span></p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>1994 - 1999</h3>
+                        <p>Высшее профессиональное образование, юрист по специальности "юриспруденция".</p>
+                        <p><span><b>Пермский государственный университет</b></span></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Разделитель "Проекты" -->
+        <div class="section-divider">
+            <span>ПРОЕКТЫ</span>
+        </div>
+        <section id="projects" class="projects">
+            <div class="project-item">
+                <img src="assets/project1.jpg" alt="Доска объявлений для фанатского сервера MMORPG" loading="lazy">
+                <h3>Доска объявлений для фанатского сервера MMORPG</h3>
+                <div class="project-buttons">
+                    <button class="button collapsible">Развернуть</button>
+                    <a href="https://github.com/alferov77/fanboard.git" class="button view-project" target="_blank">Посмотреть проект</a>
+                </div>
+                <div class="collapsible-content">
+                    <p>Этот проект представляет собой веб-платформу для объявлений и взаимодействия между пользователями фанатского сервера популярной MMORPG. Особенности включают создание, просмотр и управление объявлениями, а также возможность отклика на них.</p>
+                </div>
+            </div>
+            
+            <div class="project-item">
+                <img src="assets/project2.jpg" alt="Мессенджер" loading="lazy">
+                <h3>Мессенджер</h3>
+                <div class="project-buttons">
+                    <button class="button collapsible">Развернуть</button>
+                    <a href="https://github.com/alferov77/MessengerApp.git" class="button view-project" target="_blank">Посмотреть проект</a>
+                </div>
+                <div class="collapsible-content">
+                    <p>Простой мессенджер, разработанный как часть учебного курса. Позволяет пользователям обмениваться сообщениями в реальном времени, создавать групповые чаты и управлять личной информацией.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Разделитель "Фото" -->
+        <div class="section-divider">
+            <span>ФОТО</span>
+        </div>
+        <section class="gallery">
+            <div class="photo-grid">
+                <img src="assets/photo1.jpg" alt="Фото 1" loading="lazy">
+                <img src="assets/photo2.jpg" alt="Фото 2" loading="lazy">
+                <img src="assets/photo3.jpg" alt="Фото 3" loading="lazy">
+                <img src="assets/photo4.jpg" alt="Фото 4" loading="lazy">
+                <img src="assets/photo5.jpg" alt="Фото 5" loading="lazy">
+                <img src="assets/photo6.jpg" alt="Фото 6" loading="lazy">
+            </div>
+        </section>
+
+        <!-- Разделитель "Связаться со мной" -->
+        <div class="section-divider">
+            <span>СВЯЗАТЬСЯ СО МНОЙ</span>
+        </div>
+        <section id="contact" class="contact">
+            <p><span><b>Телефон</b></span>: 0012345678910</p>
+            <p><span><b>Место нахождения</b></span>: Любляна, Словения</p>
+            <p><span><b>Email</b></span>: example@example.com</p>
+            <p><span><b>Вебсайт</b></span>: <a href="http://www.mysite.ru">www.mysite.ru</a></p>
+            
+            <!-- Значки социальных сетей -->
+            <div class="social-icons">
+                <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i></a>
+                <a href="https://www.pinterest.com" target="_blank"><i class="fab fa-pinterest"></i></a>
+            </div>
+        </section>
+
+    </main>
+<script src="script.js"></script>
+</body>
+
+</html>
