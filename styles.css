@@ -17,9 +17,9 @@ body {
     position: fixed;
     top: 0;
     left: 0;
-    width: 300px; /* Ширина боковой панели */
+    width: 300px;
     height: 100%;
-    background-color: #4258a6; /* Цвет фона меню */
+    background-color: #4258a6;
     color: #fff;
     z-index: 1000;
     display: flex;
@@ -36,11 +36,11 @@ body {
 }
 
 .profile-photo {
-    max-width: 200px; /* Максимальная ширина фото */
-    max-height: 375px; /* Максимальная высота фото */
+    max-width: 200px;
+    max-height: 375px;
     width: auto;
     height: auto;
-    border-radius: 10px; /* Закругленные углы для фото */
+    border-radius: 10px;
 }
 
 .nav-links {
@@ -70,7 +70,7 @@ body {
 
 /* Стиль для мобильного меню и иконки гамбургера */
 .mobile-header {
-    display: none; /* Скрыто по умолчанию, будет отображаться только на мобильных устройствах */
+    display: none;
     position: fixed;
     top: 0;
     left: 0;
@@ -123,18 +123,18 @@ body {
 
 /* Основной контент */
 .content {
-    margin-left: 320px; /* Отступ для боковой панели */
+    margin-left: 320px;
     padding: 20px;
-    width: calc(100% - 320px); /* Ширина контента, исключая боковую панель */
+    width: calc(100% - 320px);
 }
 
 p {
-    margin-bottom: 20px; /* Добавляет отступ снизу для каждого абзаца */
+    margin-bottom: 20px; 
 }
 
 .highlight {
-    color: rgb(238, 19, 19); /* Задайте нужный цвет */
-    font-weight: bold; /* Дополнительно: можно сделать текст жирным */
+    color: rgb(238, 19, 19);
+    font-weight: bold; 
 }
 
 /* Разделитель секций */
@@ -270,46 +270,46 @@ p {
 
 .photo-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Создаем три колонки */
-    gap: 20px; /* Расстояние между фотографиями */
-    padding: 20px; /* Отступы внутри контейнера с фото */
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
 }
 
 .photo-grid img {
-    width: 100%; /* Заполняют ширину своей ячейки */
-    height: auto; /* Автоматически адаптируют высоту, сохраняя пропорции */
-    max-height: 600px; /* Установи максимальную высоту, соответствующую самому маленькому изображению */
-    object-fit: cover; /* Обрезает изображение, чтобы оно заполнило блок, сохраняя аспект */
-    border-radius: 10px; /* Закругление углов */
-    transition: transform 0.3s ease; /* Добавляем плавный переход для трансформации */
+    width: 100%;
+    height: auto; 
+    max-height: 600px;
+    object-fit: cover; 
+    border-radius: 10px; 
+    transition: transform 0.3s ease;
 }
 
 .photo-grid img:hover {
-    transform: scale(1.3); /* Увеличение на 30% при наведении */
+    transform: scale(1.3);
 }
 
 /* Стили для раздела проектов */
 .projects {
-    display: flex; /* Используем flexbox для расположения проектов в ряд */
-    justify-content: space-around; /* Равномерное распределение пространства между элементами */
-    flex-wrap: wrap; /* Позволяет элементам переноситься на новую строку при нехватке места */
+    display: flex; 
+    justify-content: space-around; 
+    flex-wrap: wrap; 
 }
 
 .project-item {
-    flex-basis: 45%; /* Задает базовую ширину каждого элемента проекта */
-    margin: 10px; /* Небольшой отступ между элементами */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Добавляет тень для визуального выделения */
-    padding: 10px; /* Отступы от границы элемента */
-    border-radius: 5px; /* Скруглим углы для гармоничности */
-    background-color: white; /* Зададим фон для блока */
+    flex-basis: 45%; 
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    padding: 10px;
+    border-radius: 5px;
+    background-color: white;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
 .project-item h3 {
-    margin: 10px 0; /* Отступы сверху и снизу */
-    text-align: center; /* Центрируем текст */
+    margin: 10px 0;
+    text-align: center;
 }
 
 /* Общий стиль для всех кнопок */
@@ -323,28 +323,28 @@ p {
     border: none;
     outline: none;
     display: inline-block;
-    font-size: 14px; /* Размер шрифта одинаковый */
-    margin: 0 5px; /* Отступы между кнопками */
+    font-size: 14px;
+    margin: 0 5px;
 }
 
 /* Специфический стиль для кнопки "Развернуть" */
 .collapsible {
-    background-color: #4258a6; /* Синий цвет фона */
-    color: white; /* Цвет текста */
+    background-color: #4258a6;
+    color: white;
 }
 
 .collapsible:hover {
-    background-color: #333; /* Цвет фона при наведении */
+    background-color: #333; 
 }
 
 /* Специфический стиль для кнопки "Посмотреть проект" */
 .view-project {
-    background-color: #28a745; /* Зеленый цвет фона */
-    color: white; /* Цвет текста */
+    background-color: #28a745; 
+    color: white; 
 }
 
 .view-project:hover {
-    background-color: #218838; /* Цвет фона при наведении */
+    background-color: #218838; 
 }
 
 /* Стиль контейнера для кнопок */
@@ -352,8 +352,8 @@ p {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 10px; /* Отступ снизу */
-    width: 100%; /* Занимает всю ширину */
+    margin-bottom: 10px;
+    width: 100%;
 }
 
 /* Стили для выпадающего контента внутри каждого проекта */
@@ -371,41 +371,41 @@ p {
 }
 
 .social-icons a {
-    color: #333; /* Цвет значка */
-    font-size: 40px; /* Размер значка */
+    color: #333;
+    font-size: 40px;
     text-decoration: none;
     transition: color 0.3s;
 }
 
 .social-icons a:hover {
-    color: #555; /* Цвет значка при наведении */
+    color: #555;
 }
 
 /* Мобильная версия */
 @media (max-width: 768px) {
     body {
         flex-direction: column;
-        padding: 10px; /* Добавим отступы для всего контента */
-        font-size: 18px; /* Увеличим размер шрифта для удобства чтения */
+        padding: 10px;
+        font-size: 18px;
     }
 
     .sidebar {
-        display: none; /* Полностью скрываем боковое меню */
+        display: none;
     }
 
     .mobile-header {
-        display: flex; /* Отображаем мобильное меню на устройствах с шириной до 768px */
+        display: flex;
     }
 
     .content {
         margin-left: 0;
         width: 100%;
-        padding: 10px; /* Уменьшим отступы */
+        padding: 10px;
     }
 
     .photo-grid {
-        grid-template-columns: repeat(2, 1fr); /* Только две колонки для мобильных устройств */
-        gap: 10px; /* Меньше пространства между фотографиями */
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
     }
 
     .timeline {
@@ -425,35 +425,36 @@ p {
     }
 
     .project-item {
-        flex-basis: 100%; /* Устанавливаем ширину 100% для проектов */
-        margin: 5px 0; /* Уменьшаем отступы между проектами */
-        padding: 10px; /* Уменьшаем внутренние отступы для уменьшения размера блоков */
-        font-size: 14px; /* Уменьшаем размер шрифта для более компактного отображения */
+        flex-basis: 100%;
+        margin: 5px 0;
+        padding: 10px;
+        font-size: 14px;
     }
 
     .project-item img {
-        max-width: 100%; /* Ограничиваем ширину изображения */
+        max-width: 100%;
         height: auto;
     }
 
     .project-item h3 {
-        font-size: 16px; /* Уменьшаем размер заголовков в мобильной версии */
+        font-size: 16px;
     }
 
     .photo-grid img {
         width: 100%;
-        max-width: 100%; /* Убедимся, что изображения не превышают ширину экрана */
-        border-radius: 5px; /* Меньший радиус закругления углов */
+        height: 80%;
+        max-width: 100%;
+        border-radius: 5px;
     }
 
     .button {
-        font-size: 16px; /* Увеличим размер шрифта для кнопок на мобильных устройствах */
-        padding: 12px 20px; /* Увеличим размер кнопок для удобства касания */
+        font-size: 16px;
+        padding: 12px 20px;
     }
 
     .social-icons {
-        flex-direction: column; /* Разместим иконки соцсетей в колонку */
-        gap: 10px; /* Увеличим расстояние между иконками */
+        flex-direction: column;
+        gap: 10px;
     }
 }
 

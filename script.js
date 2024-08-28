@@ -17,7 +17,6 @@ document.querySelectorAll('.collapsible').forEach(button => {
     button.addEventListener('click', function() {
         this.classList.toggle('active');
         
-        // Ищем родительский элемент project-item и находим collapsible-content внутри него
         const content = this.closest('.project-item').querySelector('.collapsible-content');
         
         if (content.style.maxHeight) {
